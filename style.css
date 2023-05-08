@@ -1,0 +1,204 @@
+* { 
+    background: #f3f5fc;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 150%;
+}
+
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+
+.logoAlura {
+    padding: 15px 10px 0px 10px;
+    width: 2%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 200px;
+}
+
+.text-area {
+    background: white;
+    border: none;
+    border-radius: 33px;
+    color: #0A3871;
+    position: relative;
+    top: 50px;
+    right: 20px;
+    margin: 10px;
+    padding: 10px;
+    text-transform: lowercase;
+    resize: none;
+}
+
+
+::placeholder { color: #0A3871}
+    .text-area:focus { 
+        outline: none;
+    }.mensagem {
+        outline: none;       
+    }
+
+.mensagem {
+    background: white;
+    border: none;
+    border-radius: 33px;
+    color: #0A3871;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    top: 48px;
+    text-transform: lowercase;
+    
+    resize: none;
+}
+
+
+.botoes {
+    display: flex;
+    margin-top: 16px;
+}
+
+.btn-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #D8DFE8;
+    border-radius: 35px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 270px;
+} 
+
+.btn-desencriptar:hover {
+	border-color: #000000;
+    font-size: 30px;
+}
+  
+.btn-encriptar{
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 35px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 67px;
+    width: 270px;
+}
+
+.btn-encriptar:hover {
+	border-color: #000000;
+    font-size: 30px;
+}
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 35px;
+    background: #0A3871;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 67px;
+    position: relative;
+    top: 59px;
+    left: 103px;
+    width: 270px; 
+}
+
+.btn-copiar:hover {   
+    border-color: #000000;
+    font-size: 30px;
+}
+        
+
+.informacao img {
+    position: relative;
+    top: 20px;
+    left: 6px;
+    display: initial;
+    vertical-align: middle;
+}
+
+.informacao p {
+        position: relative;
+        top: 18px;
+        display: initial;
+        margin-left: 2px; 
+        color: #0A3871;
+        font-size: 14px;
+        
+}
+
+footer {
+    position: absolute;
+    top: 865px;
+    left: 770px;
+}
+
+.github, .linkedin, .email {
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.github:hover, .linkedin:hover, .email:hover {
+    transform: scale(1.2);
+}
+
+.copyright {
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .texto {
+        margin-top: 1rem;
+        width: 60vw;
+    }
+
+    .imagem-desktop {
+        display: none;
+    }
+
+    .tradutor {
+        margin: 2em;
+        width: 80vw;
+    }
+    
+}
+
+/* MOBILE */
+@media (max-width: 500px) {
+
+    .text-area {
+        display: flex;
+        position: absolute;
+        right: 100px;
+    }
+
+    .botoes {
+        flex-direction: column;
+    }
+
+    .mensagem {
+        width: auto;
+    }
+    
+}
+
+
+
+        
+
+
+

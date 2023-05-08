@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>&#945; Encriptador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img class="logoAlura" src="./imagens/logoAlura.svg" alt="Logo da alura">
+    </header>
+
+    <main>
+        <section>
+            <textarea class="text-area" cols="46" rows="10" placeholder="Digite seu texto..."></textarea>
+            <div class="informacao">
+                <img src="./imagens/simbolo.png" alt="simbolo">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="botoes">
+                <button class="btn-encriptar" onclick="btnEncriptar()">criptografar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">descriptografar</button>
+            </div>
+        </section>
+
+        </section>
+        <section>
+            <textarea class="mensagem" placeholder="nenhuma mensagem encontrada..." cols="35" rows="10"></textarea>
+            <button class="btn-copiar" onclick="btnCopiar()">copiar</button>
+        </section>
+    </main>
+
+    <footer>
+        <a href="https://www.linkedin.com/in/weverton-fernandes-b9747b262/"><img class="github" src="imagens/icons8-linkedin-48.png" alt=""></a>
+        <a href="https://github.com/DevwevertonF"><img class="linkedin" src="imagens/icons8-github-48.png" alt=""></a>
+        <a href="mailto:devweverton@gmail.com"><img class="email" src="imagens/icons8-envelope-48.png" alt=""></a>
+        <p class="copyright">© Copyright Weverton Fernandes</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
